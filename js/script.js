@@ -3,16 +3,16 @@ function sortearImagem() {
 	var imagem = document.getElementById("imagem");
 
 	// Verifica se uma imagem foi selecionada
-	if (imagem.src != "semcasa.png") {
+	if (imagem.src != "img/semcasa.png") {
 		// Remove a imagem que já está sendo exibida
-		var imagens = ["corvinal.png", "sonserina.png", "grifinoria.png", "lufalufa.png"];
+		var imagens = ["img/corvinal.png", "img/sonserina.png", "img/grifinoria.png", "img/lufalufa.png"];
 		var index = imagens.indexOf(imagem.src.split('/').pop());
 		if (index !== -1) {
 			imagens.splice(index, 1);
 		}
 	} else {
 		// Obtém uma lista de todas as imagens
-		var imagens = ["corvinal.png", "sonserina.png", "grifinoria.png", "lufalufa.png"];
+		var imagens = ["img/corvinal.png", "img/sonserina.png", "img/grifinoria.png", "img/lufalufa.png"];
 	}
 
 	// Seleciona uma imagem aleatória da lista
