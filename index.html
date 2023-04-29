@@ -2,20 +2,19 @@
 <html lang="pt-br">
 <head>
   	<meta charset="UTF-8">
-  	<title>Gamificação</title>
+  	<title>O Torneio de Manutenção de Software</title>
 	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   	<link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   	<link rel="shortcut icon" type="image/png" href="img/icon.png"/>
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body class="container-fluid castelo">
-	
-<nav class="navbar navbar-expand-lg navbar-light bg-transparent mb-4">
-    <a class="navbar-brand text-white" href="#">Gamificação</a>
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark bg-transparent mb-4">
+    <a class="navbar-brand text-white" href="index.html">O Torneio de<br><b>Manutenção de Software</b></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon navbar-light"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
       <ul class="navbar-nav">
@@ -31,22 +30,109 @@
         <li class="nav-item mx-2">
           <a class="nav-link text-white rounded" href="sobre.html">Sobre</a>
         </li>
+        
       </ul>
     </div>
 </nav>
-  	<div class="h-100 mb-4">
-    	<div class="row h-100">
-           
+
+
+
+
+  	<div class="container">
+    	<div class="row">
+        <div class="col-md-6 p-3 d-flex justify-content-center flex-column">
+          <p class="tituloprincipal">Bem-vindo(a) ao Hogwarts da Manutenção de Software!</p>
+          <p>Este site é a documentação do mundo mágico da gamificação com a temática de Harry Potter, na disciplina de Manutenção de Software, lecionada pela professora Dra. <b>Jacilane Rabelo</b>.</p> 
+          </p>
+          
+        </div>
+        <div class="col-md-6 justify-content-center p-3 d-flex  flex-column">
+          <img src="img/envelope.png" class="imgflutuante">
+        </div>
+
+       
+
+        <div class="col-md-12 cronograma p-5 text-center bg-white justify-content-center" id="parte-baixo" style="color:#000">
+          <h3>Cronograma</h3>
+          <p>Meus caros alunos, eis aqui o cronograma da gamificação para esta disciplina de Manutenção de Software,<br> repleto de desafios, magia e aprendizado!</p>
+          <div class="p-2" >
+          <table class="table table-borderless ">
+              <thead>
+                <tr>
+                  <th scope="col" class="text-left">Data</th>
+                  <th scope="col" colspan="2" class="text-left">Atividade</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-left align-middle">28/04/2023</td>
+                  <td class="text-left align-middle d-block">
+                    <i class="fas fa-hat-wizard" style="color:#876500"></i><b> Sortear casas dos grupos</b><br>O Chapéu Seletor escolheu a morada do coletivo.<br>
+                    <br><button class="btn-gray">EM BREVE</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-left">Em breve</td>
+                  <td class="text-left"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        
+      </div>
+    </div>
+  
+  <div class="container-fluid p-5">
+  <div class="row containerautores">
+    <div class="col-md-4 d-flex justify-content-center flex-column">
+      <div class="tituloautores">Conheça as idealizadoras</div>
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-md-2">
+          <img src="img/israely.png" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <h2>Israely Lima</h2>
+          <p>Aluna do curso de Engenharia de Software - UFC </p>
+          <a href="http://lattes.cnpq.br/3452920618068752" class="lattes"><i class="fas fa-link"></i> Currículo Lattes</a>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-md-2">
+          <img src="img/jacy.png" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <h2>Jacilane Rabelo</h2>
+          <p>Doutora e Mestre em Informática pelo Programa de Pós-Graduação em Informática da Universidade Federal do Amazonas (UFAM) com ênfase em Engenharia de Software.</p>
+          <a href="http://lattes.cnpq.br/1286204651639755" class="lattes"><i class="fas fa-link"></i> Currículo Lattes</a>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+    </div>         
+    
+    </div>
+          
+  </div>
       
-    	</div> 
-  	</div>
+  </div> 
+</div>
+
 
 
   <footer class="footer text-white py-4">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          Desenvolvido por Israely Lima
+          Desenvolvido por <a href="mailto:israelylima@alu.ufc.br.com?subject=Dúvida/Sugestão sobre a gamificação&body=Olá Israely,">Israely Lima</a>
         </div>
       </div>
     </div>
@@ -56,6 +142,7 @@
    
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
    	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
