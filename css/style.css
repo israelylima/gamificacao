@@ -1,11 +1,72 @@
+::selection {
+  background-color: #123485;
+  color: white;
+}
 
 a, body{
-  color: #fff!important;
+  color: #fff;
+}
+
+a:hover{
+  text-decoration: none;
 }
 .castelo{
 	background-image: url('../img/background.png'); 
   background-size: cover; 
+  background-repeat: no-repeat;
   
+
+}
+.lattes{
+  color: #123485;
+  border-bottom: #123485 solid 1px;
+}
+.lattes a{
+  color: #123485!important;
+}
+.lattes a:hover{
+  color: #013bc4!important;
+}
+tr {
+  border-bottom: solid #e5e5e5 1px;
+}
+.cronograma{
+  border-radius: 20px;
+}
+.containerautores{
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.containerautores img{
+  width: 150px;
+  border-radius: 10px;
+}
+.tituloautores{
+  font-size: 50px;
+}
+.btn-gray {
+  background-color: #123485;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-gray:hover {
+  background-color: #09225d;
+  color: #fff;
+}
+table{
+  border: none;
+}
+
+
+.tituloprincipal{
+  font-size: 56px;
 
 }
 .sobre {
@@ -155,3 +216,43 @@ button {
     background-color: yellow;
     cursor: pointer;
   }
+
+.imgflutuante{
+  animation: flutuacao 3s ease-in-out infinite;
+
+}
+@keyframes flutuacao {
+  0%, 100%{
+
+    transform: translateY(0px);
+    
+  }
+  50%{
+    transform: translateY(-50px);
+
+  }
+}
+
+.menu-vertical {
+  background-color: #f8f9fa;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.menu-vertical a {
+  color: #343a40;
+}
+
+.menu-vertical a:hover {
+  color: #007bff;
+}
+
+.conteudo {
+  margin-top: 50px;
+  margin-left: 20px;
+}
