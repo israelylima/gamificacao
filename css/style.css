@@ -5,6 +5,7 @@
 
 a, body{
   color: #fff;
+  text-decoration: none;
 }
 
 a:hover{
@@ -17,9 +18,8 @@ a:hover{
   
 
 }
-.lattes{
+.lattes, .links{
   color: #123485;
-  border-bottom: #123485 solid 1px;
 }
 .lattes a{
   color: #123485!important;
